@@ -1,7 +1,8 @@
-typedef struct bola{
+struct bola{
 	float preco;
 	char tipo, cor, marca, modalidade, estado, tamanho;
-}Bola;
+};
+typedef struct bola Bola;
 
 void criarbola (Bola *b, float preco, char tamanho, char cor, char tipo, char marca, char modalidade, char estado);
 void precobola (Bola *b, float preco);
